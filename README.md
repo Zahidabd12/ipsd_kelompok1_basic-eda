@@ -12,10 +12,10 @@
 ---
 
 ## 📂 Struktur Repository
-📁 IPSD_M3_EDA/
-┣ 📜 insurance.csv → Dataset utama
-┣ 📘 IPSD_M3_EDA.ipynb → Notebook analisis EDA
-┗ 📄 README.md → Dokumentasi project
+📁 IPSD_M3_EDA/<br>
+┣ 📜 insurance.csv → Dataset utama <br>
+┣ 📘 IPSD_M3_EDA.ipynb → Notebook analisis EDA <br>
+┗ 📄 README.md → Dokumentasi project 
 
 ## 📊 Deskripsi Dataset
 Dataset ini berisi informasi mengenai **biaya asuransi kesehatan** berdasarkan beberapa faktor seperti usia, jenis kelamin, indeks massa tubuh (BMI), jumlah anak, kebiasaan merokok, dan wilayah tempat tinggal.
@@ -50,9 +50,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 ```
-🚀 Cara Menjalankan
+## 🚀 Cara Menjalankan
 1. Clone repository ini:
-```git clone https://github.com/username/nama-repo.git
+```
+git clone https://github.com/Zahidabd12/ipsd_kelompok1_basic-eda
 cd nama-repo
 ```
 2. Buka file notebook:
@@ -61,15 +62,12 @@ jupyter notebook IPSD_M3_EDA.ipynb
 ```
 3. Jalankan sel-sel kode secara berurutan untuk melihat hasil analisis dan visualisasi.
 
-📈 Hasil dan Temuan Utama
-Perokok memiliki rata-rata biaya asuransi jauh lebih tinggi dibanding non-perokok.
+## 📈 Hasil dan Temuan Utama
+- Perokok memiliki rata-rata biaya asuransi jauh lebih tinggi dibanding non-perokok.
+- Usia berbanding lurus dengan biaya asuransi, terutama bagi perokok.
+- BMI tinggi cenderung meningkatkan biaya, menunjukkan korelasi antara obesitas dan risiko kesehatan.
+- Faktor wilayah (region) tidak menunjukkan perbedaan signifikan terhadap biaya.
 
-Usia berbanding lurus dengan biaya asuransi, terutama bagi perokok.
-
-BMI tinggi cenderung meningkatkan biaya, menunjukkan korelasi antara obesitas dan risiko kesehatan.
-
-Faktor wilayah (region) tidak menunjukkan perbedaan signifikan terhadap biaya.
-
-🧾 Kesimpulan
-Dari hasil EDA, ditemukan bahwa status merokok dan usia adalah dua faktor paling berpengaruh terhadap biaya asuransi kesehatan.
-Analisis ini memberikan dasar penting untuk pengembangan model prediksi biaya asuransi di tahap selanjutnya.
+## 🧾 Kesimpulan
+- Dari hasil EDA, ditemukan bahwa status merokok dan usia adalah dua faktor paling berpengaruh terhadap biaya asuransi kesehatan.
+- Analisis ini memberikan dasar penting untuk pengembangan model prediksi biaya asuransi di tahap selanjutnya.
