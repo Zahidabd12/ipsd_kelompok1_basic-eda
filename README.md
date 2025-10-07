@@ -34,6 +34,12 @@ Dataset ini berisi informasi mengenai **biaya asuransi kesehatan** berdasarkan b
 
 ---
 
+## 🌐 Sumber Dataset
+Dataset ini diambil dari Kaggle:  
+🔗 [Medical Cost Personal Datasets – Kaggle](https://www.kaggle.com/datasets/mosapabdelghany/medical-insurance-cost-dataset)  
+
+---
+
 ## 🎯 Tujuan Analisis
 1. Melakukan **Exploratory Data Analysis (EDA)** terhadap dataset `insurance.csv`.  
 2. Mengidentifikasi pola dan hubungan antar variabel (misalnya pengaruh usia, BMI, dan kebiasaan merokok terhadap biaya asuransi).  
